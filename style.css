@@ -1,0 +1,42 @@
+#avatar{
+    background-image: url(assets/avatar-1.jpg);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-size: cover;
+}
+#iconNotification{
+    background-color: gainsboro;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#svgNotification{
+    width: 20px;
+    height: 20px;
+}
+.online{
+    background-color: rgb(3, 198, 3);
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 2px;
+    right: 5px;
+    border: 2px solid white;
+}
+.notifica{
+    background-color: #7153F9;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    border: 2px solid white;
+}
+#dropdownAvatar{
+    right: 0!important;
+    left: auto!important;
+}
+
