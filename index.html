@@ -85,7 +85,7 @@
                                 alt="icon notification">
                             <div class="notifica"></div>
                         </a>
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu" id="dropdownNotification">
                             <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
                             <li>
@@ -122,20 +122,176 @@
             </div>
         </div>
     </nav>
-
 </header>
-<hero>
-    <div>
-        <div>
-            <h1></h1>
-            <p></p>
+
+<section class="container my-5" id="hero">
+    <div class="row align-items-center justify-content-center">
+        <div
+            class="col-12 col-md-5 d-flex flex-column justify-content-center text-center text-md-start mb-4 mb-md-0 text">
+            <h1><strong>Welcome Web Students!</strong></h1>
+            <p>Hand-picked Instructor and expertly crafted courses, designed for the modern students and entrepreneur.
+            </p>
+            <div>
+                <button class="btn1">Browse Courses</button>
+                <button class="btn2">Are You Instructor?</button>
+            </div>
         </div>
-
+        <div class="col-12 col-md-5 d-flex justify-content-center">
+            <img class="img-fluid" src="assets/hero-img.png" alt="hero">
+        </div>
     </div>
-
-</hero>
+</section>
+<div class="container" id="features">
+    <div class="row">
+        <div class="icon col-12 col-md-4 d-flex  align-items-center">
+            <div id="cameraIcon"><img src="assets/camera.svg" alt="camera icon"></div>
+            <div class="d-flex flex-column ">
+                <h4>30.000 online courses</h4>
+                <p class="p">Enjoy a variety of fresh topics</p>
+            </div>
+        </div>
+        <div class="icon col-12 col-md-4 d-flex align-items-center">
+            <div id="peopleIcon"><img src="assets/people.svg" alt="people icon"></div>
+            <div class="d-flex flex-column ">
+                <h4>Expert Instruction</h4>
+                <p class="p">Find the right instructor for you</p>
+            </div>
+        </div>
+        <div class="icon col-12 col-md-4 d-flex  align-items-center">
+            <div id="timerIcon"><img src="assets/timer.svg" alt="timer icon"></div>
+            <div class="d-flex flex-column ">
+                <h4>Lifetime access</h4>
+                <p class="p">Learn on your schedule</p>
+            </div>
+        </div>
+    </div>
+</div>
 
 <body>
+    <div class="container">
+        <div class="row">
+            <h3>Recommended to you</h3>
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active d-flex justify-content-center">
+                        <div class="row d-flex justify-content-center" id="primoCarousel">
+                            <div class="col d-flex justify-content-center">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="assets/course-graphql.jpg" class="card-img" alt="graphql img">
+                                    <div class="card-body">
+                                        <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the bulk of the card’s content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col d-flex justify-content-center">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="assets/course-javascript.jpg" class="card-img" alt="javascript img">
+                                    <div class="card-body">
+                                        <h5 class="card-title">A Complete Beginner's Guide to JavaScript</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the bulk of the card’s content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col d-flex justify-content-center">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="assets/course-node.jpg" class="card-img" alt="node img">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Beginning Node.js, Express & MongoDB Development</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the bulk of the card’s content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col d-flex justify-content-center">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="assets/course-laravel.jpg" class="card-img" alt="lavarel img">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Laravel: The Ultimate Beginner's Guide to Learn</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the bulk of the card’s content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item active d-flex justify-content-center">
+                        <div class="row d-flex justify-content-center" id="primoCarousel">
+                            <div class="col d-flex justify-content-center">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="assets/course-graphql.jpg" class="card-img" alt="graphql img">
+                                    <div class="card-body">
+                                        <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the bulk of the card’s content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col d-flex justify-content-center">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="assets/course-javascript.jpg" class="card-img" alt="javascript img">
+                                    <div class="card-body">
+                                        <h5 class="card-title">A Complete Beginner's Guide to JavaScript</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the bulk of the card’s content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col d-flex justify-content-center">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="assets/course-node.jpg" class="card-img" alt="node img">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Beginning Node.js, Express & MongoDB Development</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the bulk of the card’s content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col d-flex justify-content-center">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="assets/course-laravel.jpg" class="card-img" alt="lavarel img">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Laravel: The Ultimate Beginner's Guide to Learn</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the bulk of the card’s content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -156,10 +312,11 @@
 
 
 
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-        crossorigin="anonymous"></script>
+
+            <script src="script.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+                crossorigin="anonymous"></script>
 </body>
 
 </html>

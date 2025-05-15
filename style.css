@@ -35,8 +35,122 @@
     right: 5px;
     border: 2px solid white;
 }
-#dropdownAvatar{
+#dropdownAvatar, #dropdownNotification{
     right: 0!important;
     left: auto!important;
 }
+#hero { 
+    align-items: center;
+    background-color: #7153F9;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+h1{
+    color: white;
+}
+.text > p {
+    color:#BCA8FF;
+    font-size: 20px;
+}
+.btn1, .btn2{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.btn1{
+    background-color: #1ACB98;
+    color: white;
+}
+#cameraIcon{
+    margin: 20px;
+    background-color:#FFEEDA;
+    padding: 15px;
+    border-radius: 50%;
+}
+#cameraIcon>img{
+    width: 30px;
+    height: 30px;
+}
+#peopleIcon{
+    margin: 20px;
+    background-color:#FFEEDA;
+    padding: 15px;
+    border-radius: 50%;
+}
 
+#peopleIcon>img{
+    width: 30px;
+    height: 30px;
+}
+
+#timerIcon{
+    margin: 20px;
+    background-color:#FFEEDA;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+#timerIcon>img{
+    width: 30px;
+    height: 30px;
+}
+
+h4{
+    margin: 0;
+    font-size: 1.2em;
+}
+.p{
+    margin:0;
+    color: rgb(200, 199, 199);
+}
+
+.icon{
+    justify-content: center;
+}
+body{
+    background-color: #F5F4F8;
+}
+
+#features{
+    background-color: white !important;
+    margin-bottom: 100px;
+}
+#primoCarousel{
+    width: 80%;
+    justify-content: center;
+}
+
+.row > h3{
+        padding-left: 13%;
+        margin-bottom: 30px;
+}
+
+.carousel-control-prev-icon{
+    background-color: grey;
+    border-radius: 50%;
+    padding: 15px;
+}
+.carousel-control-next{
+    background-color: grey;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .icon{
+        justify-content: unset !important;
+    }
+    
+}
+
+@media (min-width: 200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 100%;
+    }
+}
