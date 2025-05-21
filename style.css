@@ -147,8 +147,43 @@ p>span{
 .carousel.slide{
     margin-bottom: 100px;
 }
+footer a{
+    text-decoration: none;
+    color: #a09999;
+}
+
+footer p{
+    color: #a09999;
+    margin: 0;
+}
+
+.card.margin {
+    margin-bottom: 20px;
+}
+.d-flex.align-items-center.justify-content-between > i:hover{
+    color: #ff2a00;
+
+}
 
 
+
+
+@media screen and (max-width: 767px) {
+    .container-fluid.d-flex.justify-content-around{
+        flex-direction: column;
+    }
+    .d-flex.align-items-center.justify-content-center{
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-toggler{
+        order: 3;
+    }
+    
+}
 
 @media screen and (max-width: 768px) {
     .icon{
@@ -161,4 +196,18 @@ p>span{
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 100%;
     }
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .card-container .card {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+  }
 }
